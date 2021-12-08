@@ -34,7 +34,8 @@ authors:
 
 tags:
 - Visualizing
-- 
+- Coding
+- Functions
 
 categories:
 - Demo

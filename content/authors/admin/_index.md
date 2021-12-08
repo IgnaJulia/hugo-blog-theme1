@@ -20,11 +20,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: I am a graduate student of Psychology in the area of Cognitive, Developmental and Brain Sciences at Western University. My research interests include neurophenomenology of selfhood, complex cognition, and meditation. Currently, my research is on differences in Categorization strategies. 
 
-interests:
-- Neurophenomenology of the self
-- Meditation/consciousness
-- Complex Cognition
-
 education:
 
 University of Western Ontario (2021-2023): MSc Psychology in the Cognitive, Developmental and Brain Sciences Area
@@ -66,3 +61,26 @@ Julia Ignaszewski is a graduate student of Psychology in the area of Cognitive, 
 - University of Western Ontario (2021-2023): MSc Psychology in the Cognitive, Developmental and Brain Sciences Area
 
 - Carleton University (2014-2020): BA Cognitive Science Hons Specializing in the Biological Foundations of Cognition
+
+### Research Interests:
+
+- Neurophenomenology of the self
+- Meditation/consciousness
+- Complex Cognition
+
+
+### Skills
+
+- **Coding** 
+  - Limited experience in Matlab, Python and R. 
+  - Coding projects almost always have to do with data analysis and visualization. 
+
+- **Multilingual** 
+  - Speaks English, Polish, French and Spanish. 
+  - Studied Italian and Russian. 
+
+- **Creative**
+  - Years of experience with digital and traditional art such as watercolour, sketching and graphic art
+
+
+

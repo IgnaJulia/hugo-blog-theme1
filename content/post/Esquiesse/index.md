@@ -4,7 +4,7 @@ subtitle: Starting out with ggplot? Don't feel confident about how you want to v
 summary: Learn how to use ggplot in rstudio with the use of the Esquiesse package; great for beginners!
 authors:
 - admin
-tags: [beginners, plot]
+tags: [beginners, plotting, ggplot2, esquiesse, coding]
 categories: [demo]
 projects: []
 date: "2021-12-02"
