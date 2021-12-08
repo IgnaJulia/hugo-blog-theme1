@@ -129,6 +129,50 @@ Under "appearance" select the "classic" theme. Your grid lines are no more.
 
 {{< figure src="es_aesthetics.jpg" caption="Our colourful and clean boxplot" >}}
 
+From here, if you just wanted to grab a finished plot, you can click the download icon on the right side of the esquiesse window and save the image to your computer. 
+
+## Code Snippets
+
+All the changes we made in the GUI have R based code behind it. To see what's happening under the hood, click on the "code" button at the bottom right of the esquiesse window. 
+
+```R
+ggplot(Chick_reduce) +
+  aes(x = Diet, y = weight, fill = Diet) +
+  geom_boxplot(shape = "circle") +
+  scale_fill_hue(direction = 1) +
+  labs(
+    x = "Diet",
+    y = "Weight (g)",
+    title = "How 21 Days of Different Diets Affects Chick Weights",
+    caption = "Protein amounts were varied to create four different diets. Weight after 21 days is pictured above in 48 different chicks."
+  ) +
+  theme_classic() +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(size = 14L),
+    plot.caption = element_text(size = 10L),
+    axis.title.y = element_text(size = 12L),
+    axis.title.x = element_text(size = 12L)
+  )
+```
+
+This is the code I extracted from my plot. I can insert this code in my script just by pressing the icon in the code window. 
+
+Now, as long as I have ggplot2 installed and loaded, I can run my script and the same plot we generated using esquiesse will be produced. 
+
+We can knit our markdown document and have a reproducible output. 
+
+## Summary
+
+By playing around with the variables and plot types in the esquiesse window, you can get an idea of the best way that your specific data can be visualized. You can add layers of complexity by adding fill, colour, faceting or grouping. 
+
+Changing the labels and aesthetics of your plots is easier than ever because you don't have to hunt for code online and in ggplot2 documentation. If you're trying to abide by formatting conventions, esquiesse makes that easy as well!
+
+Once you have your code from esquiesse, you can always insert it and edit manually. This package really offers a streamlined and intuitive method for learning more about your own data and about using ggplot2. 
+
+I hope that this package can give new users the confidence and knowledge to tackle plot building. 
+
+*Happy Plotting!*
 
 
 
